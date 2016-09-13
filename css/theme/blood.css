@@ -15,7 +15,81 @@
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
+#firstscreen1{
+    float:initial;
+    width: 85%;
+    left:10%;
+    top:10%;
+    position:absolute;
+    
+}
+#firstscreen1 h3{
+    margin-right: 0 !important;
+}
+#firstscreen1 img{
+    width:320px;
+    height:320px;
+}
 
+#firstscreen1 #title{
+    margin-top:10%;
+    float:right;
+    width: 
+}
+#firstscreen2 {
+    float:right;
+    margin-top:50%;
+}
+#firstscreen2 p{
+    font-size:80%;
+}
+.main .exercises{
+    padding-top: 25%!important;
+}
+.tags{
+    height: 85%;    
+}
+.left{
+    width:50%;
+    float:left;
+    
+}
+.right{
+    width:50%;
+    height:400px;
+    float:right;
+}
+.right table{
+    margin-top:15%!important;
+}
+.main{
+    width: auto;
+    height: 500px;
+}
+#web img{
+    width: 40%;
+}
+section h3{
+    margin-right:20%!important;
+}
+section div h4{
+    margin-left: 10%!important;
+    text-shadow: none!important;
+    color: #C4DD00!important;
+}
+.code{
+    font-size: 90%!important;
+}
+.codesmall{
+    font-size: 70%!important;
+}
+#footer{
+   float:right;;
+}
+.footer img{
+    width:300px;
+    height:50px;
+}
 .invert-img-color {
     -webkit-filter: invert(100%);
     -moz-filter: invert(100%);
