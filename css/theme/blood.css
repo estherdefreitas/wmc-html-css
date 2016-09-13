@@ -10,7 +10,7 @@
  *
  */
 
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+@import 'https://fonts.googleapis.com/css?family=Signika';
 
 /*********************************************
  * GLOBAL STYLES
@@ -134,14 +134,21 @@ section div h4{
 .pink {
     color: #E40053!important;
 }
+button{
+    width:30%;
+    font-size:100%;
+}
 
 body {
+    font-family: 'Signika', sans-serif!important;
+    font-size: 36px;
+    font-weight: normal;
     background: #22272a;
     background-color: #22272a;
 }
 
 .reveal {
-    font-family: Ubuntu, "sans-serif";
+    font-family: 'Signika', sans-serif!important;
     font-size: 36px;
     font-weight: normal;
     color: #eee;
@@ -172,7 +179,7 @@ body {
 .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee;
-    font-family: Ubuntu, "sans-serif";
+    font-family: Signika, "sans-serif";
     font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
@@ -286,14 +293,14 @@ body {
     margin: 20px auto;
     text-align: left;
     font-size: 0.55em;
-    font-family: monospace;
+    font-family: Signika, "sans-serif";
     line-height: 1.2em;
     word-wrap: break-word;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
 }
 
 .reveal code {
-    font-family: monospace;
+    font-family: Signika, "sans-serif";
 }
 
 .reveal pre code {
