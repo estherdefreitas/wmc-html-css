@@ -43,16 +43,21 @@
 #firstscreen2 p{
     font-size:80%;
 }
-.main .exercises{
-    padding-top: 25%!important;
-}
 .tags{
-    height: 85%;    
+    height: 85%;
+    background-color: blue;
 }
 .left{
     width:50%;
     float:left;
     
+}
+.leftbig{
+    width:73%;
+    float:left;
+}
+.leftbig dl{
+    margin-top:5%!important;
 }
 .right{
     width:50%;
@@ -62,9 +67,21 @@
 .right table{
     margin-top:15%!important;
 }
+.rightsmall{
+    width:26%;
+    height:400px;
+    float:right;
+}
+.rightsmall form{
+    margin-top:30%!important;
+}
 .main{
     width: auto;
     height: 500px;
+    background-color: green;
+}
+.main .exercises{
+    padding-top: 25%!important;
 }
 #web img{
     width: 40%;
