@@ -45,12 +45,17 @@
 }
 .tags{
     height: 85%;
-    background-color: blue;
+
 }
 .left{
     width:50%;
     float:left;
     
+}
+.leftsmall{
+    width:26%;
+    height:400px;
+    float:left;
 }
 .leftbig{
     width:73%;
@@ -59,13 +64,20 @@
 .leftbig dl{
     margin-top:5%!important;
 }
+.middle{
+    width: 48%;
+    float:left;
+}
 .right{
     width:50%;
     height:400px;
     float:right;
 }
-.right table{
+.right .table{
     margin-top:15%!important;
+}
+.padding{
+    padding-top:10%!important;
 }
 .rightsmall{
     width:26%;
@@ -75,13 +87,94 @@
 .rightsmall form{
     margin-top:30%!important;
 }
+.cornflowerblue{
+    color: cornflowerblue;
+}
+.tablesmall{
+    table-layout: fixed;
+    max-width: 900px;
+    max-height: 500px!important;
+    text-align: center;
+}
+.cleartable{
+    border-color: white;
+
+}
+.cleartable td,th,tr{
+    border-right: 1px solid!important;
+    border-left: 1px solid!important;
+    border-bottom: 0!important;
+    border-color: white!important;
+
+}
+.cleartable tr td:last-child,
+.cleartable tr th:last-child {
+  border-right: 0!important;
+}
+.cleartable tr td:first-child,
+.cleartable tr th:first-child {
+  border-left: 0!important;
+}
+th{
+  text-align:center!important;
+}
+.cleartable tr:first-child th {
+  border-top: 0!important;
+    padding: 0!important;
+}
+
+.cleartable tr:last-child td {
+  border-bottom: 0!important;
+}
+.border{
+    border: 1px solid !important;
+    border-color: white!important;
+    text-align: center;
+}
+.borderinside td,th{
+    border-left:  1px solid !important;
+    border-right:  1px solid !important;
+    border-top: 1px solid !important;
+    text-align: center;
+    border-color: white!important;
+    border-collapse: collapse;
+    vertical-align: super;
+
+}
+.teste{
+    overflow-x:auto;
+}
+.borderinside tr:first-child th {
+  border-top: 0!important;
+    height: 5px!important;
+    padding: 0!important;
+}
+.borderinside tr:last-child td {
+  border-bottom: 0!important;
+}
+.borderinside tr td:last-child,
+.borderinside tr th:last-child {
+  border-right: 0!important;
+}
+.borderinside tr td:first-child,
+.borderinside tr th:first-child {
+  border-left: 0!important;
+}
+.top{
+    padding-top:20%!important;
+}
+.topsmall{
+    padding-top:2%!important;
+}
 .main{
     width: auto;
     height: 500px;
-    background-color: green;
 }
 .main .exercises{
     padding-top: 25%!important;
+}
+#subl{
+    text-decoration: underline;
 }
 #web img{
     width: 40%;
@@ -114,7 +207,9 @@ section div h4{
     -o-filter: invert(100%);
     filter: invert(100%);
 }
-
+.black{
+    color:#22272a;
+}
 .red {
     color: red!important;
 }
